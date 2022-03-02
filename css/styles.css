@@ -1,0 +1,289 @@
+/*
+font-family: 'Libre Baskerville', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+p {
+	color: #8f8f8f;
+}
+
+.section-main-title {
+  font-family: 'Libre Baskerville', serif;	
+  color: rgb(202, 2, 2);
+}
+
+.section-sub-title {
+  font-family: 'Ubuntu', sans-serif;	
+}
+
+/* .separator {
+    opacity: 1;
+    background-color: #fff;
+    margin: 40px auto;
+    width: 30%;
+    border-bottom: 4px ridge rgb(202, 2, 2);
+    box-shadow: 0px 2px 5px 2px #c4c3c3;
+} */
+
+/* Header Section */
+section.header {
+ /* border-bottom: 3px ridge rgb(202, 2, 2); */
+ border-bottom: 3px ridge maroon;
+ box-shadow: 0px 2px 5px 2px #c4c3c3;
+}
+.mykara-logo {
+	height: 50px;
+}
+
+.navbar {
+    padding: 0;
+}
+.navbar-collapse {
+	/* margin-top: 18px; */
+}
+
+.nav-link {
+	font-family: 'Ubuntu', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 0;
+
+}
+
+/* Override the bootstrap nav colors */
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(202, 2, 2);
+}
+
+/* @media (max-width: 767px) { */
+@media (max-width: 1024px) {
+	#title {
+		text-align: center;
+	}
+
+	div.navbar-collapse {
+		text-align: right;
+	}
+
+	li.nav-item {
+		padding-right: 0;
+	}
+}
+
+/* What we do Section */
+.what-we-do.section {
+    /* background-color:burlywood; */
+	text-align: left;
+	padding: 5% 10%;
+	position: relative;
+}
+
+div.what-we-do {
+	position: relative;
+}
+
+.what-we-do-text {
+	padding: 0 0 0 5%;
+}
+
+@media (max-width: 990px) {
+
+	.what-we-do-text {
+		display: inline;
+        text-align: center;
+		padding: 5% 0 0;
+	}
+}
+
+/* Services Section */
+.services.section {
+    /* background-color:burlywood; */
+	text-align: left;
+	padding: 5% 10%;
+	position: relative;
+}
+
+div.services {
+	position: relative;
+}
+
+
+.money-image {
+	width: 100%;
+    /* border: 3px ridge #8f8f8f; */
+    border: 1px solid maroon;
+}
+
+ul.services {
+    color: #727171;
+  	font-family: 'Ubuntu', sans-serif;
+}
+
+em.service-slide-header {
+    color: #727171;
+  	font-family: 'Ubuntu', sans-serif;
+}
+
+.services-text {
+	padding: 0 5% 0 0;	
+}
+
+@media (max-width: 990px) {
+
+	.services-text {
+		display: inline;
+        text-align: center;
+		padding: 0 0 5%;	
+	}
+
+	ul.services {
+		text-align: left;
+		width: 60%;
+		margin: auto;
+		padding-bottom: 10px;
+	}
+}
+
+.service-slide-show {
+	padding: 0;
+	border: 1px solid maroon;
+}
+
+.service-slide-header {
+  display: block;
+}
+
+.service-text {
+	/* font-size: 3rem;
+	line-height: 1.5; */
+}
+
+.service-image {
+	width: 80%;
+	border-radius: 5%;
+	margin: 20px;
+}
+
+.carousel-item {
+	text-align: center;
+	transition-duration: 1.5s;
+}
+
+.carousel-control-prev {
+	filter: invert(100%);
+}
+
+.carousel-control-next {
+	filter: invert(100%);
+}
+
+/* @media (max-width: 990px) {
+
+	.service-text {		
+        text-align: center;
+	}
+} */
+
+/* Expertise Section */
+.expertise.section {
+	text-align: left;
+	padding: 5% 10%;
+	position: relative;
+}
+
+.expertise-icons-grp {
+    border: 1px solid maroon;
+}
+
+.expertise-header {
+    font-family: 'Ubuntu', sans-serif;
+	font-size: 1.2rem;
+}
+
+div.expertise-item {
+	/* font-family: "Montserrat"; */
+	text-align: center;
+	padding: 2.5% 5%;
+}
+
+.money-image {
+	width: 100%;
+    /* border: 3px ridge #8f8f8f; */
+    border: 1px solid maroon;
+}
+
+.expertise-text {
+	padding: 0 0 0 5%;
+}
+
+@media (max-width: 990px) {
+
+	.expertise-text {
+		display: inline;
+        text-align: center;
+		padding: 5% 0 0;
+	}
+}
+
+.expertise-img {
+	height: 50px;
+}
+
+.expertise-icon {
+	margin: 0 0 0.5rem;
+	color: #4fa8e4;
+	font-size: 3rem; 
+}
+
+
+.expertise-img:hover {
+	color: #ff4c68;
+}
+
+/* Contact Section */
+.contact.section {
+	text-align: center;
+	padding: 5% 10%;
+	position: relative;
+}
+
+i.contact {
+	color: #8f8f8f;
+	font-size: 3rem;
+}
+
+i.contact:hover {
+	font-size: 3.5rem;
+}
+
+.footer.section {
+	padding: 5% 10%;
+	position: relative;	
+}
+
+p.footer{
+    color: #fff;
+	font-size: 0.8rem;
+}
+
+div.credits {
+    padding: 10px 0;
+	color: #fff;
+	font-size: 0.8rem;
+	background-color: maroon;
+}
+
+a.credits {
+  font-family: 'Libre Baskerville', serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+a.credits:hover {
+  color: red;
+}

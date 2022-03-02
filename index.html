@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mykara Ltd</title>
+		<link rel="icon" type="image/x-icon" href="img/mykara_favicon.png" />
+
+		<!-- Bootstrap css -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+		<!-- Bootstrap JS Bundle -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+			crossorigin="anonymous"
+		></script>
+		
+		<!-- Font Awesome -->
+		<script src="https://kit.fontawesome.com/066df66b0a.js" crossorigin="anonymous"></script>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap" 
+		      rel="stylesheet">
+
+		<!-- Tailored CSS -->
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<section class="header container-fluid" id="header">
+			<!-- <div class="container-fluid"> -->
+				<!-- Nav Bar -->
+				<nav class="navbar navbar-expand-md navbar-light">
+					<a class="navbar-brand" href="index.html"
+						><img
+							class="mykara-logo"
+							src="img/Red_Mykara_Logo.png"
+							alt="Mykara Logo"
+					/></a>
+					<!-- Expandable button -->
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<!-- Full Nav Menu -->
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item">
+								<a class="nav-link mynav" href="#services">Services</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link mynav" href="#expertise">Expertise</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+
+			</div>
+		</section>
+
+		<section class="what-we-do section" id="what-we-do">
+			
+            <div class="what-we-do row ">
+				<div class="col-lg-7">
+					<img class="money-image" src="img/money.jpg" alt="image of growing wealth" />
+				</div>
+				<div class="what-we-do-text col-lg-5">
+					<h1 class="section-main-title">Our purpose</h1>
+					<h2 class="section-sub-title">Mykara is a software development consultancy.</h2>
+                    <p>
+                        We have over 30 years of software development experience.                        
+                    </p>                    
+					<p>
+						Our goal is to help our clients to maximise growth potential and 
+                        stand out from the crowd in an ever competitive world.
+                    </p>
+                    <p>   
+                        We do this by providing software services that put in place the IT solutions 
+						that our clients need in order for their businesses to flourish. 
+					</p>
+
+				</div>
+			</div>  
+		</section>
+
+		<section class="services section" id="services">
+			
+            <div class="services row ">
+				<div class="services-text col-lg-5">
+					<h1 class="section-main-title">Our services</h1>
+                    <p>
+                        We offer a number of services to assist clients at any stage of the 
+                        software development life-cycle: 
+                    </p>
+                    <ul class="services">
+                        <li>Requirements Analysis</li>
+                        <li>Design</li>
+                        <li>Development & Testing</li>
+                        <li>Support & Training</li>
+						<li>Documentation</li>
+                    </ul>
+					<p>We also offer other limited products & services to private individuals & smaller clients:</p>
+					<ul class="services">
+                        <li>Website Design</li>
+                        <li>Add-ons for the MetaTrader Forex Platform</li>					
+					</ul>
+
+				</div>
+				<div class="service-slide-show col-lg-7">
+
+					<!-- <div id="service-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="7000"> -->
+					<div id="service-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="9000">
+						<div class="carousel-inner">
+							<div class="carousel-item container-fluid active">
+								<em class="service-slide-header">Requirements Analysis</em>								
+								<img class="service-image" src="img/magnifying-glass.jpg" alt="Requirements Analysis image" />						
+								<p class="service-text">
+									We can help you to identify and record the key requirements that define & scope an optimal solution.
+								</p>
+							</div>
+							<div class="carousel-item container-fluid">
+								<em class="service-slide-header">Design</em>
+								<img class="service-image" src="img/design_3.jpg" alt="Design image">
+								<p class="service-text">
+									Once we know what needs to be done, we can then look at how to do it.									
+								</p>																
+							</div>
+							<div class="carousel-item container-fluid">
+								<em class="service-slide-header">Development & Testing</em>
+								<img class="service-image" src="img/software-development.jpg" alt="Development image">
+								<p class="service-text">
+									Once a design is agreed, it's time to bring it to life.
+									This is where our technical expertise comes in. All our work is 
+									tested to ensure that both the design & the original requirements are satisfied. 																		
+								</p>																
+							</div>
+							<div class="carousel-item container-fluid">
+								<em class="service-slide-header">Support & Training</em>
+								<img class="service-image" src="img/support.jpg" alt="Support image">
+								<p class="service-text">
+									Before go-live, your users may benefit from training on new functionality. <br>
+									After go-live, they might need some help & support while things bed in. 									
+								</p>																
+							</div>		
+							<div class="carousel-item container-fluid">
+								<em class="service-slide-header">Documentation</em>
+								<img class="service-image" src="img/writing.jpg" alt="Documentation image">
+								<p class="service-text">
+									At all stages of the life-cycle, proper documentation is essential. Depending upon your needs, we can assist with the creation of 
+									use cases, textual design documents plus UML diagrams and models.									
+								</p>																
+							</div>													
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#service-carousel" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#service-carousel" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>						
+				</div>                
+			</div> 
+ 
+		</section>        
+
+		<!-- Expertise -->
+		<section class="expertise section container-fluid" id="expertise">
+			
+            <!-- <div class="expertise"> -->
+			    <div class="row ">
+					<div class="expertise-icons-grp col-lg-7">
+						<div class="row">
+							<div class="col-lg-4 expertise-item">
+								<img class="expertise-img" src="img/sap.png" />					
+								<h3 class="expertise-header">SAP Netweaver</h3>
+								<p class="expertise-item">ABAP Objects & Web Dynpro</p>
+							</div>
+							<div class="col-lg-4 expertise-item">
+								<img class="expertise-img" src="img/c-.png" />	
+								<h3 class="expertise-header">C++</h3>
+								<p class="expertise-item">Including MQL4 for MetaTrader</p>
+							</div>        
+							<div class="col-lg-4 expertise-item">
+								<!-- <img class="expertise-img" src="img/sql.png" />	 -->
+								<i class="expertise-icon fa-solid fa-database"></i>
+								<h3 class="expertise-header">Databases</h3>
+								<p class="expertise-item">Oracle, SQLite</p>
+							</div> 
+							<div class="col-lg-4 expertise-item">
+								<!-- <img class="expertise-img" src="img/java.png" />	 -->
+								<i class="expertise-icon fa-brands fa-java"></i>
+								<h3 class="expertise-header">Java</h3>
+							</div> 		
+							<div class="col-lg-4 expertise-item">
+								<i class="expertise-icon fa-solid fa-code"></i>	
+								<h3 class="expertise-header">Web Technologies</h3>
+								<p class="expertise-item">HTML, CCS, Javascript</p>
+							</div> 				
+						</div>	
+					</div>					
+					<div class="expertise-text col-lg-5">
+						<h1 class="section-main-title">Our Expertise</h1>
+						<p>
+							Our in-house expertise covers a number of different programming languages
+							including ABAP/WebDynpro, C++, Java & Oracle PL/SQL.                        
+						</p>      
+						<p>Our database knowledge stretches from single-user app-embedded SQLite
+						   up to corporate-level transactional Oracle systems.
+						 </p>              
+						 <p>We also have experience of web technologies such as HTML, CSS,
+						    Javascript & XML</p>
+						<p>
+							Last but not least, we have knowledge of the MetaTrader 4 retail
+							forex trading platform which has its own language: MQL4 (a derivative 
+							of C++) which can be used to create add-ons such as Expert Advisors (for 
+							automated trading) and bespoke technical indicators.
+						</p>	
+					</div>
+				</div>	
+			<!-- </div>   -->
+		</section>
+
+		<section class="contact section" id="contact">
+			<!-- <h1 class="section-main-title">Contact Us</h1> -->
+			<h2 class="section-sub-title">Contact Us</h2>
+			<a href="mailto:enquiries@mykara.co.uk"><i class="contact fa-solid fa-envelope"></i></a>
+		</section>
+
+		<section id="footer section">
+			
+			<div class="credits">
+			    <p class="footer">© 2022 Mykara Limited</p>
+				Thanks to Flaticon for providing the following icons: 
+				<a class="credits" href="https://www.flaticon.com/free-icons/c-" title="c++ icons">C++</a>, 
+				<a class="credits" href="https://www.flaticon.com/free-icons/sap" title="sap icons">SAP</a> and
+				<a class="credits" href="https://www.flaticon.com/free-icons/java" title="java icons">Java</a> created by Freepik,  				  
+				<a class="credits" href="https://www.flaticon.com/free-icons/html" title="html icons">HTML</a> and 
+				<a class="credits" href="https://www.flaticon.com/free-icons/css" title="css icons">CSS</a> created by Smashicons, 
+				<a class="credits" href="https://www.flaticon.com/free-icons/sql" title="sql icons">SQL</a> created by iconixar.
+			</div>
+		</section>
+	</body>
+</html>
